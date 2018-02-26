@@ -14,7 +14,7 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: <img src="/img/logo.png"/>
+title: dlacko.org
 
 # Short description of your site
 description: Functional programming, robotics, and other stuff that makes me engaded
@@ -36,7 +36,7 @@ avatar: "/img/avatar-icon.jpg"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-# title-img: /path/to/image
+title-img: "/img/logo.png"
 
 # --- Background colour/image options --- #
 
