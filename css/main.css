@@ -258,6 +258,14 @@ img {
   }
 }
 
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 0px 0px;
+  font-size: 18px;
+  line-height: 20px;
+}
+
 /* --- Footer --- */
 
 footer {
@@ -362,18 +370,11 @@ footer .theme-by {
 }
 .post-image {
   float: right;
-  height: 192px;
-  width: 192px;
+  overflow: hidden;
+  max-height: 150px;
+  max-width: 200px;
   margin-top: -35px;
-  filter: grayscale(90%);
-}
-.post-image:hover {
-  filter: grayscale(0%);
-}
-.post-image img {
-  border-radius: 100px;
-  height: 192px;
-  width: 192px;
+  margin-left: 10px;
 }
 .post-preview .post-read-more {
   font-weight: 800;
@@ -673,11 +674,11 @@ pre code {
 }
 pre.highlight, .highlight > pre, td.code pre {
   background-color: #FAFAFA;
-  background-image: linear-gradient(#F9F9F9 50%, #FDFDFD 50%);
-  background-repeat: repeat;
-  background-size: 3em 3em;
-  background-position: 0px 10px;
-  border-left: 7px solid #444;
+//  background-image: linear-gradient(#F9F9F9 50%, #FDFDFD 50%);
+//  background-repeat: repeat;
+//  background-size: 3em 3em;
+//  background-position: 0px 10px;
+//  border-left: 7px solid #444;
 }
 code table, code table td, code table th, code table tbody, code table tr,
 td.gutter pre {
