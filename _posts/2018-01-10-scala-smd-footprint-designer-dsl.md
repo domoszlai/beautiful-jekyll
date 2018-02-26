@@ -62,9 +62,9 @@ and define their relations:
 b.centerTop ~= a.centerTop + (6.4, 0);
 ```
 
-Next step, create the five pads for the actual connectors
-
 ![](/img/pcb_layout3.png){: style="float: right; margin-left: 10px"}
+
+Next step, create the five pads for the actual connectors
 
 ```scala
 val p1 = l.createPad("P1", 0.4, 1.35);
