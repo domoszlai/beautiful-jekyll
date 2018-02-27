@@ -1,8 +1,15 @@
 ---
 layout: post
 title: About the blog
-subtitle: and why did I embark on writing one 
+subtitle: and why did I embark on writing one
 show-avatar: true
+published: true
+description: >-
+  After working hard on my PhD for years at Radboud University, a few months ago
+  I fulfilled the publication requirements, so, finishing it up became the
+  promise of the foreseeable future. It had the immediate effect on me that I
+  had (the mostly false) impression of having some spare time as I did not have
+  to do research and write papers continuously.
 ---
 
 After working hard on my PhD for years at [Radboud University](http://www.ru.nl/icis/), a few months ago I fulfilled the publication requirements, so, finishing it up became the promise of the foreseeable future.  It had the immediate effect on me that I had (the mostly false) impression of having some spare time as I did not have to do research and write papers continuously.
