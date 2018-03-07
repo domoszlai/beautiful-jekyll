@@ -1,0 +1,3 @@
+[submodule "v-plotter"]
+	path = v-plotter
+	url = https://github.com/domoszlai/v-plotter.git
