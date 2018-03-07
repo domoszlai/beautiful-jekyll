@@ -10,7 +10,7 @@ show-avatar: true
 
 It is one part of a bigger project I have been thinking about for some time now, a remote controlled turret for my kids. A video is worth 1000 words, so let's see the result first:
 
-![Mini ball launcher in action](/img/3d_printed_mini_ball_launcher_video.jpg){: style="display:block; margin:auto;"}
+[![Mini ball launcher in action](/img/3d_printed_mini_ball_launcher_video.jpg){: style="display:block; margin:auto;"}](https://www.youtube.com/watch?v=nHBG8JRPoDQ)
 
 The design is straightforward, harnesses centrifugal force with a specially designed rotor:
 
