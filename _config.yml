@@ -17,7 +17,7 @@ baseurl: ""
 title: dlacko.org
 
 # Short description of your site
-description: Functional programming, robotics, and other stuff that makes me engaded
+description: Software, hardware and everything that makes me engaged
 
 # --- Navigation bar options --- #
 
@@ -107,7 +107,7 @@ url-pretty: "dlacko.org"  # eg. "deanattali.com/beautiful-jekyll"
 google_analytics: "UA-74643376-2"
 
 # Google Tag Manager ID
-gtm: "GTM-N7J9B8Z"
+# gtm: "GTM-N7J9B8Z"
 
 # Matomo (aka Piwik) Web statistics
 # Uncomment the following section to enable Matomo. The opt-out parameter controls

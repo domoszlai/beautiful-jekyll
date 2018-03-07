@@ -68,12 +68,10 @@
   <meta property="og:title" content="{{ site.title }}" />
   {% endif %}
 
-   {% if page.meta-description %}
+   {% if page.description %}
   <meta property="og:description" content="{{ page.description }}">
-  {% elsif page.subtitle %}
-  <meta property="og:description" content="{{ page.subtitle }}">
-  {% else %}
-  <meta property="og:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  {% elsif page.excerpt %}
+  <meta property="og:description" content="{{ page.excerpt }}">
   {% endif %}
 
 
@@ -107,11 +105,9 @@
   {% endif %}
 
   {% if page.description %}
-  <meta name="twitter:description" content="{{ page.description }}">
-  {% elsif page.subtitle %}
-  <meta name="twitter:description" content="{{ page.subtitle }}">
-  {% else %}
-  <meta name="twitter:description" content="{{ page.content | strip_html | xml_escape | truncatewords: 50 }}">
+  <meta name="twitter:description" content="{{ page.escription }}">
+  {% elsif page.excerpt %}
+  <meta name="twitter:description" content="{{ page.excerpt }}">  
   {% endif %}
 
   {% if page.share-img %}
