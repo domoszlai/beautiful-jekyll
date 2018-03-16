@@ -45,7 +45,7 @@ PureScript is easy to [install](https://github.com/purescript/documentation/blob
 PureScript apps looks similarly to Haskell ones, only the types seems a bit more involved, because of the effect system in use
 and, because using the `forall` quantifier is mandatory:
 
-```haskell
+```purescript
 module Main where
 
 import Prelude (Unit)
@@ -86,7 +86,7 @@ First of all, we need access to the HTML DOM to be able to attach event handlers
 use the [Canvas API](https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API). Looking up a DOM element
 can be done by the `purescript-dom` module:
 
-```haskell
+```purescript
 main :: forall e. Eff (dom :: DOM, console :: CONSOLE | e) Unit
 main = do
    documentType <- document =<< window
@@ -101,7 +101,7 @@ main = do
 Unfortunately, `purescript-dom` does not give access to the Canvas API. For that we need the `purescript-canvas` module, which
 provides a different mechanism to look up a canvas element:
  
-```haskell
+```purescript
 main :: forall e. Eff (canvas :: CANVAS, console :: CONSOLE | e) Unit
 main = do
    -- returns type Maybe CanvasElement 
@@ -114,7 +114,7 @@ main = do
 Because we need both, we already face a little bit of drama here. The easiest way I could find to solve this problem, involves 
 `unsafeCoerce`. Not nice, but works perfectly...
 
-```haskell
+```purescript
 canvasToHTMLElement :: CanvasElement -> HTMLElement
 canvasToHTMLElement = unsafeCoerce
 ```
@@ -124,7 +124,7 @@ canvasToHTMLElement = unsafeCoerce
 The default way to handle effects are the [`Eff`](https://github.com/purescript/purescript-eff), and its asynchronous extension,
 the [`Aff`](https://github.com/slamdata/purescript-aff) monads (we will use the `Aff` monad whenever it is possible, because it helps dealing with async events easier). Of course, none of these provides a way to maintain a pure state for the application, so we will try to use the good, old state monad transformer:
 
-```haskell
+```purescript
 type BigCanvasState = 
             { canvas  :: CanvasElement
             , context :: Context2D 
@@ -140,14 +140,14 @@ type BigCanvasT e = StateT BigCanvasState
 
 Next step, adding event handlers. Fortunately, `purescript-dom` enables it by 
 
-```haskell
+```purescript
 addEventListener :: forall eff. EventType -> EventListener (dom :: DOM | eff) 
    -> Boolean -> EventTarget -> Eff (dom :: DOM | eff) Unit
 ```
 
 and
 
-```haskell
+```purescript
 requestAnimationFrame :: forall eff. Eff (dom :: DOM | eff) Unit -> Window 
    -> Eff (dom :: DOM | eff) RequestAnimationFrameId
 ```
@@ -161,7 +161,7 @@ hours with [pursuit](https://pursuit.purescript.org/) anyway... The gist is that
 utilizing [coroutines](https://www.schoolofhaskell.com/school/to-infinity-and-beyond/pick-of-the-week/coroutines-for-streaming/part-2-coroutines). 
 The necessary functions can be found in module `purescript-aff-coroutines`. The event loop turns the async DOM events into a sequence of events of type `BigCanvasEvent` and passes it to the event handler function `onEvent`:
 
-```haskell
+```purescript
 onEvent ::  forall e. BigCanvasEvent -> BigCanvasT e Unit
 onEvent event = ... -- explained later
 
@@ -174,7 +174,7 @@ data BigCanvasEvent
 The `setupEventLoop` function handles the `mousemove` and `mousedown` events of the canvas
 and also generates an infinite stream of `EDraw` events by continuously asking for `AnimationFrame`s from the browser.
 
-```haskell
+```purescript
 setupEventLoop :: forall e. EventTarget -> BigCanvasT e Unit
 setupEventLoop target = runProcess $ consumer `pullFrom` producer
    where
@@ -197,7 +197,7 @@ Drawing to the canvas at the proper point of time is very crucial for the qualit
 Web browsers provide the [`requestAnimationFrame()`](https://developer.mozilla.org/en-US/docs/Web/API/window/requestAnimationFrame) method to register a call back which invoked just before the next repaint. It is a tricky call, though, as it calls back only once, so it must be requested continuously. This is done with the help
 of the `waitForAnimationFrame` function:
 
-```haskell
+```purescript
 waitForAnimationFrame :: forall e. Aff (dom :: DOM, console :: CONSOLE | e) Unit
 waitForAnimationFrame = 
    makeAff \emit -> do 
@@ -212,7 +212,7 @@ waitForAnimationFrame =
 
 The last step is finally straightforward. Save coordinates when mouse moves, display them when `EDraw` comes:
 
-```haskell
+```purescript
 onEvent ::  forall e. BigCanvasEvent -> BigCanvasT e Unit
 onEvent (EMouseDown _) = pure unit -- do nothing for now
 
