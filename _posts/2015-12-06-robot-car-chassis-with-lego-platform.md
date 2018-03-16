@@ -31,7 +31,7 @@ If opting for wood, basically there are two options, [plywood](https://en.wikipe
 
 MDF comes in large tables. The smallest one I could buy was 122x61cm, enough for ten robots at least (for the price of an ice cream).  The 4mm thick version felt a bit too flexible, but the 5mm thick one seemed alright.
 
-First, I designed an easily 3D printable simple [T-shaped motor mount](T-shaped motor mount):
+First, I designed an easily 3D printable simple [T-shaped motor mount](https://www.thingiverse.com/thing:1169412):
 
 ![T-shaped motor mount](/img/motor_mount_T_preview.jpg){: style="display:block; margin:auto;"}
 
