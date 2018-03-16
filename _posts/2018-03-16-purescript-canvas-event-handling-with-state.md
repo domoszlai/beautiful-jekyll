@@ -4,8 +4,8 @@ title: Stateful event handling in PureScript
 subtitle: the big-canvas experiment
 tags: [functional programming, purescript, bigcanvas]
 show-avatar: true
-description: 
-excerpt: 
+description: PureScript is a Haskell like purely functional programming language that compiles directly to JavaScript. In this post I explain one way to handle async DOM events in a stateful way using coroutines.
+excerpt: PureScript is a Haskell like purely functional programming language that compiles directly to JavaScript. In this post I explain one way to handle async DOM events in a stateful way using coroutines.
 image: /img/purescript_logo.png
 gh-repo: domoszlai/purescript-bigcanvas
 gh-badge: [star, fork, follow] 
