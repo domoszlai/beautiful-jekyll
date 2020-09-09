@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c62c28e6d1741e69bb58aa7204b7c14a",
+    "revision": "8cb8e817fb62626b499e5f77a939a4a6",
     "url": "/mealee/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mealee/static/css/2.5a298a47.chunk.css"
   },
   {
-    "revision": "7d38a262656bc60f28ab",
+    "revision": "83e1dcdfa3fbb642ed29",
     "url": "/mealee/static/css/main.82ab6955.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mealee/static/js/2.28bd5862.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d38a262656bc60f28ab",
-    "url": "/mealee/static/js/main.effe1504.chunk.js"
+    "revision": "83e1dcdfa3fbb642ed29",
+    "url": "/mealee/static/js/main.966e45f5.chunk.js"
   },
   {
     "revision": "befa7781135e629b28a8",
