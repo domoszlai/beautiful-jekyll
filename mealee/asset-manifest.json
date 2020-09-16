@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/mealee/static/css/main.abea3197.chunk.css",
-    "main.js": "/mealee/static/js/main.af16f075.chunk.js",
-    "main.js.map": "/mealee/static/js/main.af16f075.chunk.js.map",
+    "main.css": "/mealee/static/css/main.1b15dffc.chunk.css",
+    "main.js": "/mealee/static/js/main.b1171c2a.chunk.js",
+    "main.js.map": "/mealee/static/js/main.b1171c2a.chunk.js.map",
     "runtime-main.js": "/mealee/static/js/runtime-main.1d23e4db.js",
     "runtime-main.js.map": "/mealee/static/js/runtime-main.1d23e4db.js.map",
     "static/css/2.5a298a47.chunk.css": "/mealee/static/css/2.5a298a47.chunk.css",
-    "static/js/2.c7d874de.chunk.js": "/mealee/static/js/2.c7d874de.chunk.js",
-    "static/js/2.c7d874de.chunk.js.map": "/mealee/static/js/2.c7d874de.chunk.js.map",
+    "static/js/2.3cb27c94.chunk.js": "/mealee/static/js/2.3cb27c94.chunk.js",
+    "static/js/2.3cb27c94.chunk.js.map": "/mealee/static/js/2.3cb27c94.chunk.js.map",
     "index.html": "/mealee/index.html",
-    "precache-manifest.e063323b9c84c4c705c4dd1f4d1f8326.js": "/mealee/precache-manifest.e063323b9c84c4c705c4dd1f4d1f8326.js",
+    "precache-manifest.7fc0c95578dce416f6dcac884e0d197f.js": "/mealee/precache-manifest.7fc0c95578dce416f6dcac884e0d197f.js",
     "service-worker.js": "/mealee/service-worker.js",
     "static/css/2.5a298a47.chunk.css.map": "/mealee/static/css/2.5a298a47.chunk.css.map",
-    "static/css/main.abea3197.chunk.css.map": "/mealee/static/css/main.abea3197.chunk.css.map",
-    "static/js/2.c7d874de.chunk.js.LICENSE.txt": "/mealee/static/js/2.c7d874de.chunk.js.LICENSE.txt"
+    "static/css/main.1b15dffc.chunk.css.map": "/mealee/static/css/main.1b15dffc.chunk.css.map",
+    "static/js/2.3cb27c94.chunk.js.LICENSE.txt": "/mealee/static/js/2.3cb27c94.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1d23e4db.js",
     "static/css/2.5a298a47.chunk.css",
-    "static/js/2.c7d874de.chunk.js",
-    "static/css/main.abea3197.chunk.css",
-    "static/js/main.af16f075.chunk.js"
+    "static/js/2.3cb27c94.chunk.js",
+    "static/css/main.1b15dffc.chunk.css",
+    "static/js/main.b1171c2a.chunk.js"
   ]
 }
