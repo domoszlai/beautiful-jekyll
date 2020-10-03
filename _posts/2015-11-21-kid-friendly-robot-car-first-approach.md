@@ -10,7 +10,7 @@ gh-repo: domoszlai/stitson
 gh-badge: [star, fork, follow] 
 ---
 
-{% include note.html content="This robot car has a new version, [Mr. Stitson](https://dlacko.org/blog/2016/01/01/mr-stitson-kid-friendly-arduino-lego)" %}
+{% include note.html content="This robot car has a new version, [Mr. Stitson](http://dlacko.org/blog/2016/01/01/mr-stitson-robot-car-with-lego-platform/)" %}
 
 ## Overview
 

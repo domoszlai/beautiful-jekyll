@@ -10,7 +10,7 @@ gh-repo: domoszlai/stitson
 gh-badge: [star, fork, follow] 
 ---
 
-{% include update.html content="This robot car has a new version, [Mr. Stitson](https://dlacko.org/blog/2016/01/01/mr-stitson-kid-friendly-arduino-lego)" %}
+{% include update.html content="This robot car has a new version, [Mr. Stitson](http://dlacko.org/blog/2016/01/01/mr-stitson-robot-car-with-lego-platform/)" %}
 
 ## Overview
 
@@ -18,7 +18,7 @@ gh-badge: [star, fork, follow]
 
 The first version of my robot car went broken in no time, the acrylic chassis was a way to fragile for my kids. Fortunately, all the other parts survived, only the acrylic parts were needed to be replaced. There also had to be found a way of mounting the motors. This time I wanted a more kid friendly design, at least the electronics should have been hidden in the chassis, but something that was also a LEGO platform was preferred.  I came up with the simplest possible design, an undercarriage and a cover with the electronics in-between, and a LEGO baseplate fastened to the top of the cover board.
 
-{% include update.html content="The cat finally got named as [Mr. Stitson](https://dlacko.org/blog/2016/01/01/mr-stitson-kid-friendly-arduino-lego) after the villain of the book we happened to read to the kids that time." %}
+{% include update.html content="The cat finally got named as [Mr. Stitson](http://dlacko.org/blog/2016/01/01/mr-stitson-robot-car-with-lego-platform/) after the villain of the book we happened to read to the kids that time." %}
 
 I listed over the material alternatives. The candidates had to be inexpensive, easy to work with, stiff and light. In this order; I was afraid it was already too much to ask for...
 
