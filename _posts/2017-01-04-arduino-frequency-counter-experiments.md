@@ -17,7 +17,7 @@ In this post, I would like to summarize my recent experiments with different fre
 - it should be as precise as possible for at least up to 100KHz
 - it should work on an ATtiny (even on an ATtiny13)
 
-{% include update.html content="UPDATE: check out the proximity sensor this library is developed for: [http://dlacko.org/2017/01/08/arduino-capacitive-proximity-sensor](http://dlacko.org/2017/01/08/arduino-capacitive-proximity-sensor)" %}
+{% include update.html content="UPDATE: check out the proximity sensor this library is developed for: [http://dlacko.org/blog/2017/01/08/arduino-capacitive-proximity-sensor-with-signal-generator](http://dlacko.org/blog/2017/01/08/arduino-capacitive-proximity-sensor-with-signal-generator)" %}
 
 ## Results
 
