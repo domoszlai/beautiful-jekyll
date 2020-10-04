@@ -1,25 +1,25 @@
 {
   "files": {
     "main.css": "/mealee/static/css/main.1cac55a2.chunk.css",
-    "main.js": "/mealee/static/js/main.ddab9bc8.chunk.js",
-    "main.js.map": "/mealee/static/js/main.ddab9bc8.chunk.js.map",
+    "main.js": "/mealee/static/js/main.d70252ac.chunk.js",
+    "main.js.map": "/mealee/static/js/main.d70252ac.chunk.js.map",
     "runtime-main.js": "/mealee/static/js/runtime-main.1d23e4db.js",
     "runtime-main.js.map": "/mealee/static/js/runtime-main.1d23e4db.js.map",
     "static/css/2.5a298a47.chunk.css": "/mealee/static/css/2.5a298a47.chunk.css",
-    "static/js/2.79776041.chunk.js": "/mealee/static/js/2.79776041.chunk.js",
-    "static/js/2.79776041.chunk.js.map": "/mealee/static/js/2.79776041.chunk.js.map",
+    "static/js/2.6e357f2f.chunk.js": "/mealee/static/js/2.6e357f2f.chunk.js",
+    "static/js/2.6e357f2f.chunk.js.map": "/mealee/static/js/2.6e357f2f.chunk.js.map",
     "index.html": "/mealee/index.html",
-    "precache-manifest.38a191bf51f9a5ce10804dfc8860714c.js": "/mealee/precache-manifest.38a191bf51f9a5ce10804dfc8860714c.js",
+    "precache-manifest.a5ec97c002e7d8e3bb1419e32b6a2575.js": "/mealee/precache-manifest.a5ec97c002e7d8e3bb1419e32b6a2575.js",
     "service-worker.js": "/mealee/service-worker.js",
     "static/css/2.5a298a47.chunk.css.map": "/mealee/static/css/2.5a298a47.chunk.css.map",
     "static/css/main.1cac55a2.chunk.css.map": "/mealee/static/css/main.1cac55a2.chunk.css.map",
-    "static/js/2.79776041.chunk.js.LICENSE.txt": "/mealee/static/js/2.79776041.chunk.js.LICENSE.txt"
+    "static/js/2.6e357f2f.chunk.js.LICENSE.txt": "/mealee/static/js/2.6e357f2f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.1d23e4db.js",
     "static/css/2.5a298a47.chunk.css",
-    "static/js/2.79776041.chunk.js",
+    "static/js/2.6e357f2f.chunk.js",
     "static/css/main.1cac55a2.chunk.css",
-    "static/js/main.ddab9bc8.chunk.js"
+    "static/js/main.d70252ac.chunk.js"
   ]
 }
