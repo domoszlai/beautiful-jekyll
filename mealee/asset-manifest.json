@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8754096.chunk.css",
-    "main.js": "/static/js/main.3b1044a8.chunk.js",
-    "main.js.map": "/static/js/main.3b1044a8.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.8853458c.js",
-    "runtime-main.js.map": "/static/js/runtime-main.8853458c.js.map",
-    "static/css/2.5a298a47.chunk.css": "/static/css/2.5a298a47.chunk.css",
-    "static/js/2.f177ee07.chunk.js": "/static/js/2.f177ee07.chunk.js",
-    "static/js/2.f177ee07.chunk.js.map": "/static/js/2.f177ee07.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.d252de993d93ba3da68604d99761fba4.js": "/precache-manifest.d252de993d93ba3da68604d99761fba4.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.5a298a47.chunk.css.map": "/static/css/2.5a298a47.chunk.css.map",
-    "static/css/main.a8754096.chunk.css.map": "/static/css/main.a8754096.chunk.css.map",
-    "static/js/2.f177ee07.chunk.js.LICENSE.txt": "/static/js/2.f177ee07.chunk.js.LICENSE.txt"
+    "main.css": "/mealee/static/css/main.a8754096.chunk.css",
+    "main.js": "/mealee/static/js/main.3b1044a8.chunk.js",
+    "main.js.map": "/mealee/static/js/main.3b1044a8.chunk.js.map",
+    "runtime-main.js": "/mealee/static/js/runtime-main.1d23e4db.js",
+    "runtime-main.js.map": "/mealee/static/js/runtime-main.1d23e4db.js.map",
+    "static/css/2.5a298a47.chunk.css": "/mealee/static/css/2.5a298a47.chunk.css",
+    "static/js/2.1cbd64a0.chunk.js": "/mealee/static/js/2.1cbd64a0.chunk.js",
+    "static/js/2.1cbd64a0.chunk.js.map": "/mealee/static/js/2.1cbd64a0.chunk.js.map",
+    "index.html": "/mealee/index.html",
+    "precache-manifest.8aa99f27b12787d94613a77aa78c626f.js": "/mealee/precache-manifest.8aa99f27b12787d94613a77aa78c626f.js",
+    "service-worker.js": "/mealee/service-worker.js",
+    "static/css/2.5a298a47.chunk.css.map": "/mealee/static/css/2.5a298a47.chunk.css.map",
+    "static/css/main.a8754096.chunk.css.map": "/mealee/static/css/main.a8754096.chunk.css.map",
+    "static/js/2.1cbd64a0.chunk.js.LICENSE.txt": "/mealee/static/js/2.1cbd64a0.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8853458c.js",
+    "static/js/runtime-main.1d23e4db.js",
     "static/css/2.5a298a47.chunk.css",
-    "static/js/2.f177ee07.chunk.js",
+    "static/js/2.1cbd64a0.chunk.js",
     "static/css/main.a8754096.chunk.css",
     "static/js/main.3b1044a8.chunk.js"
   ]
